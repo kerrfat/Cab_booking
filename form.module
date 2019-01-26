@@ -1,0 +1,7 @@
+<?php
+function form_theme() {
+
+  $themes['your_form_theme'] = ['render element' => 'form'];
+
+  return $themes;
+}

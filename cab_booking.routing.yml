@@ -1,0 +1,22 @@
+cab_booking.content:
+  path: '/booking'
+  defaults:
+    _controller: '\Drupal\cab_booking\Controller\BookingController::content'
+    _title: 'Booking your Cab'
+  requirements:
+    _permission: 'access content'
+cab_booking_form:
+  path: '/book'
+  defaults:
+    _form:  '\Drupal\cab_booking\Form\BookingForm'
+    _title: 'Cab Booking Form'
+  requirements:
+    _permission: 'access content'
+cab_booking.cab_booking_form:
+  path: '/cabbooking'
+  defaults:
+    _form: '\Drupal\cab_booking\Form\CabBookingForm'
+    _title: 'CabBookingForm'
+  requirements:
+    _access: 'TRUE'
+  

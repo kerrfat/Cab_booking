@@ -1,0 +1,6 @@
+cab_booking.admin:
+  title: 'Cab Booking Module settings'
+  description: 'Cab Booking Module settings'
+  parent: system.admin_config_development
+  route_name: cab_booking.content
+  weight: 100

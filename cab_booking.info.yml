@@ -1,0 +1,6 @@
+name: Cab Booking Module
+description: Cab Booking system for Drupal 8.
+package: Cab booking system
+type: module
+core: 8.x
+version: 1.0.0
